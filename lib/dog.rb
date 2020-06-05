@@ -2,5 +2,8 @@ class Dog
 end 
 
 def name 
-fido.name = "Fido"
+lassie = Dog.new
+lassie.name = "Lassie"
+ 
+lassie.name
 end 
